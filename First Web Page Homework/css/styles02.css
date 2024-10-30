@@ -1,0 +1,98 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 3em;
+    color: #ff4444;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#anchor-name0 {
+    color: #4a90e2;
+}
+
+#anchor-name1 {
+    color: #98fb98;
+}
+
+/* Link styling */
+a {
+    color: #ff4444;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff8888;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Image styling */
+img {
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for images */
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+/* Layout for sections */
+.content-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
